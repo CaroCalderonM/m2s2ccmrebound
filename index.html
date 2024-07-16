@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h2>FORMULARIO</h2>
+    <form action="">
+        <label for="nombre">NOMBRE Y APELLIDOS</label><br>
+        <input type="text" name="nombre" id="nombre" placeholder="Juan Pérez Lauren"><br>
+        <br>
+
+        <label for="direccion">DIRECCIÓN</label><br>
+        <input type="text" name="direccion" id="direccion" placeholder="Moneda 1040, Santiago Centro, RM"><br>
+        <br>
+    
+        <label for="especialidades">ESPECIALIDAD MÉDICA</label><br>
+        <select name="especialidades" id="especialidades">
+            <option value="ninguna"> </option>
+            <option value="medicinainterna">MEDICINA INTERNA</option>
+            <option value="medicinageneral">MEDICINA GENERAL</option>
+            <option value="traumatologia">TRAUMATOLOGÍA</option>
+            <option value="nutricionista">NUTRICIONISTA</option>
+        </select><br>
+        <br>
+
+        <label for="fecha">FECHA</label><br>
+        <input type="date"><br>
+        <br>
+
+        <label for="hora">HORA</label><br>
+        <input type="time"><br>
+        <br>
+
+        <label for="correo">CORREO</label><br>
+        <input type="email" name="correo" placeholder="juanperez@gmail.com" pattern="^[^@]+@[^@]+\.[a-aA-Z]{2,}$" required><br>
+        <br>
+        
+        <button>CONFIRMAR</button>
+    
+    </form><br>
+
+
+    
+</body>
+</html>
